@@ -333,7 +333,6 @@ urban
 	
 
 race 
-	
 	인종별 education 확인 -> 투표수 : 그래프 인종 안에서  가로 : edu , 세로 : voted 2막대
 	white / white외 상관계수								//동민
 	
@@ -342,7 +341,6 @@ race
 tp_
 	지금 low, mid, high 로 상관계수 보기
 	max로 찾아 놓은 대표값으로 상관계수 보기 (max값 같은 경우 처리 생각)
-
 	tp1-10 scatterplot (가로 : 1-7, 세로 : 빈도) 					//상준
 
 

@@ -354,4 +354,80 @@ Q_E
 (2) 머신러닝 시작
 
 
-  
+
+
+## 1014 회의록  
+### 안건 : 전처리 마무리
+#### 회의내용
+##### 1. 활용할 변수 선택
+
+education
+
+
+age_group
+	1) 10 과 이외로 그룹화 : 0.39
+	2) 10/ 20 30 /40 50 /60 70  
+
+
+married : 혼인 상태
+
+
+tp  + 마키아벨리즘 score
+
+
+wf_(01~03) : 허구인 단어의 정의를 앎 (1=Yes, 0=No)
+
+
+race - > race_white or white asian other (열 만들기) or 버림  
+
+
+##### 2. 업무 분담
+1. fam,   -> 집단별 구성인원이 확연히 차이가 나므로 단순 비교가 아니라 voted를 한 퍼센트값을 변수로 추가하여 상관관계를 확인한다.				// 시호
+
+
+2. race : white asian other (열 만들기)			// 동민
+
+
+3. 마키아벨리즘 테스트 점수를 세개로 그룹화하여(사분위 수를 기준으로 함) 데이터 프레임 세 등분
+	세 그룹 안에서 tp0~10중에서 가장 높은 성향 (가장 높은 성향의 기준 : 6,7 )을 뽑아낸다    	// 상준	
+
+
+##### 2. 계획
+
+그룹 중 뽑은 tp가 만약 두개 이상이라면? -> 생각  								
+   
+   
+tp  + 마키아벨리즘 score	 +  wf와 결합(정직성) ?
+		
+		
+tp(우호성 높은데)  + 마키아벨리즘 score(높아) =  신뢰성 떨?
+
+
+
+##### 3. 추가된 변수 설명
+
+5가지 특성요소 (신경성, 외향성, 친화성(우호성), 성실성, 경험에 대한 개방성)
+	
+	
+외향성 	 	tp01 : Extraverted, enthusiastic. 외향적인, 열정적인, 
+				// tp06 : Reserved, quiet. 내향적인
+				
+				
+친화성(우호성)	tp02 : Critical, quarrelsome. 비판적인		
+				// tp07 : Sympathetic, warm. 공감능력이 있다
+				
+				
+성실성 		tp03 : Dependable, self-disciplined. 믿을[신뢰할] 수 있는,자기 훈련	
+				// tp08 : Disorganized, careless. 부주의하다,체계적이지 못한,경솔한 조심성 없는
+				
+				
+신경성   		tp04 : Anxious, easily upset. 긴장한다, 잘 화난다 -> 감정에 예민하다,	
+				// tp09 : Calm, emotionally stable. 차분하다
+				
+				
+경험에 개방성	tp05 : Open to new experiences, complex. 개방적인     	    	
+				// tp10 : Conventional, uncreative. 보수적인 
+				
+				
+참고 ) Pearson correlation을 사용하는 전제 조건인 linear relationship을 예상하지 않아서 그 대신 monotonic relationship을 전제로 하는 Spearman correlation을 사용했습니다.				
+

@@ -95,6 +95,22 @@ tp08 : Disorganized, careless. 부주의하다 //체계적이지 못한,경솔�
 tp09 : Calm, emotionally stable. 차분하다
 tp10 : Conventional, uncreative. 보수적인
 
+#### 변수 설명 추가
+
+5가지 특성요소 (신경성, 외향성, 친화성(우호성), 성실성, 경험에 대한 개방성)
+	
+외향성 	 	tp01 : Extraverted, enthusiastic. 외향적인, 열정적인, 
+				// tp06 : Reserved, quiet. 내향적인
+친화성(우호성)	tp02 : Critical, quarrelsome. 비판적인		
+				// tp07 : Sympathetic, warm. 공감능력이 있다
+성실성 		tp03 : Dependable, self-disciplined. 믿을[신뢰할] 수 있는,자기 훈련	
+				// tp08 : Disorganized, careless. 부주의하다,체계적이지 못한,경솔한 조심성 없는
+신경성   		tp04 : Anxious, easily upset. 긴장한다, 잘 화난다 -> 감정에 예민하다,	
+				// tp09 : Calm, emotionally stable. 차분하다
+경험에 개방성	tp05 : Open to new experiences, complex. 개방적인     	    	
+				// tp10 : Conventional, uncreative. 보수적인 
+
+
 
 urban : 유년기의 거주 구역
 1=Rural (country side), 2=Suburban, 3=Urban (town, city), 0=무응답

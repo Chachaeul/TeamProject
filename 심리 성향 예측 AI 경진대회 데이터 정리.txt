@@ -88,6 +88,7 @@ tp02 : Critical, quarrelsome. 비판적인
 tp03 : Dependable, self-disciplined. 자주적인가 // 믿을[신뢰할] 수 있는,자기 훈련, 수양
 tp04 : Anxious, easily upset. 긴장한다, 잘 화난다 -> 감정에 예민하다
 tp05 : Open to new experiences, complex. 개방적인
+
 tp06 : Reserved, quiet. 내향적인
 tp07 : Sympathetic, warm. 공감능력이 있다
 tp08 : Disorganized, careless. 부주의하다 //체계적이지 못한,경솔한 조심성 없는

@@ -429,5 +429,64 @@ tp(우호성 높은데)  + 마키아벨리즘 score(높아) =  신뢰성 떨?
 				// tp10 : Conventional, uncreative. 보수적인 
 				
 				
-참고 ) Pearson correlation을 사용하는 전제 조건인 linear relationship을 예상하지 않아서 그 대신 monotonic relationship을 전제로 하는 Spearman correlation을 사용했습니다.				
+참고 ) Pearson correlation을 사용하는 전제 조건인 linear relationship을 예상하지 않아서 그 대신 monotonic relationship을 전제로 하는 Spearman correlation을 사용했습니다.
+
+
+## 1015 회의록  
+### 안건 : 활용할 변수 선택 마무리
+#### 회의내용
+##### 1. 활용할 변수 선택
+
+education
+
+
+age_group
+	1) 10 과 이외로 그룹화 : 0.39
+	2) 10/ 20 30 /40 50 /60 70  
+
+
+married : 혼인 상태
+
+
+wf_(01~03) : 허구인 단어의 정의를 앎 (1=Yes, 0=No)
+
+
+race - > race_white or 버림  
+
+
+##### 2. mach 와 tp 변수의 활용 방안 정하기
+
+
+mach : 25이하, 중간 , 75이상으로 분류한 것이 가장 corr 높음
+
+
+tp : tp score 구하는 법 찾아 적용시킴. -> corr 올라감
+
+
+mach와 tp 따로 변수로 활용하는 것이 좋을 것 같다는 의견 다수!
+
+
+##### 3. 최종 변수 선택, 머신러닝
+
+
+education
+
+
+age_group
+	1) 10 과 이외로 그룹화 : 0.39 or
+	2) 10/ 20 30 /40 50 /60 70  
+
+
+married : 혼인 상태
+
+
+wf_(01~03) : 허구인 단어의 정의를 앎 (1=Yes, 0=No)
+
+
+race - > race_white or 버림  
+
+tp_score
+
+mach_score or mach_high
+
 

@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  font-family: "Open Sans", Arial;
+  background: #EDEDED;
+}
+main {
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px 20px 30px;
+  background: #FFF;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+p {
+  margin-top: 2rem;
+  font-size: 13px;
+}
+/* a-1 {
+  margin-bottom: 10px;
+} */
+#bar-chart {
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+#bar-chart1 {
+  width: 500px;
+  height: 300px;
+  position: relative;
+
+}
+#bar-chart2 {
+  width: 500px;
+  height: 300px;
+  position: relative;
+
+}
+#bar-chart3 {
+  width: 500px;
+  height: 300px;
+  position: relative;
+
+}
+#bar-chart4 {
+  width: 500px;
+  height: 300px;
+  position: relative;
+
+}
+#bar-chart::before, #line-chart::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 240px;
+  height: 30px;
+  left: 155px;
+  top: 254px;
+  background: #FAFAFA;
+  box-shadow: 1px 1px 0 0 #DDD;
+}
+
+#bar-chart1::before, #line-chart1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 240px;
+  height: 30px;
+  left: 155px;
+  top: 254px;
+  background: #FAFAFA;
+  box-shadow: 1px 1px 0 0 #DDD;
+}
+
+#pie-chart {
+  width: 500px;
+  height: 250px;
+  position: relative;
+  margin-bottom: 20px;
+}
+#pie-chart::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 140px;
+  height: 160px;
+  left: 315px;
+  top: 0;
+  background: #FAFAFA;
+  box-shadow: 1px 1px 0 0 #DDD;
+}
+#pie-chart::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 260px;
+  left: 70px;
+  width: 170px;
+  height: 2px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 3px 4px rgba(0,0,0,0.1);
+}
+
+#pie-chart1 {
+  width: 500px;
+  height: 250px;
+  position: relative;
+  margin-bottom: 20px;
+}
+#pie-chart1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 160px;
+  left: 315px;
+  top: 0;
+  background: #FAFAFA;
+  box-shadow: 1px 1px 0 0 #DDD;
+}
+#pie-chart1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 260px;
+  left: 70px;
+  width: 170px;
+  height: 2px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 3px 4px rgba(0,0,0,0.1);
+}
